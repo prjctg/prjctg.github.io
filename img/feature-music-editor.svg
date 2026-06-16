@@ -1,0 +1,54 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="24" fill="#EDE9FE"/>
+
+  <!-- Staff lines -->
+  <line x1="22" y1="78" x2="158" y2="78" stroke="#7C3AED" stroke-width="2"/>
+  <line x1="22" y1="90" x2="158" y2="90" stroke="#7C3AED" stroke-width="2"/>
+  <line x1="22" y1="102" x2="158" y2="102" stroke="#7C3AED" stroke-width="2"/>
+  <line x1="22" y1="114" x2="158" y2="114" stroke="#7C3AED" stroke-width="2"/>
+  <line x1="22" y1="126" x2="158" y2="126" stroke="#7C3AED" stroke-width="2"/>
+
+  <!-- Bar lines -->
+  <line x1="22" y1="78" x2="22" y2="126" stroke="#7C3AED" stroke-width="2.5"/>
+  <line x1="30" y1="78" x2="30" y2="126" stroke="#7C3AED" stroke-width="2"/>
+
+  <!-- Note 1 (stem up, on line 1) -->
+  <ellipse cx="52" cy="78" rx="8" ry="6" fill="#6D28D9" transform="rotate(-12 52 78)"/>
+  <line x1="59" y1="76" x2="59" y2="48" stroke="#6D28D9" stroke-width="2.5"/>
+  <path d="M59 48 Q76 54 68 64" stroke="#6D28D9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Note 2 (stem up, between lines 2-3) -->
+  <ellipse cx="84" cy="96" rx="8" ry="6" fill="#7C3AED" transform="rotate(-12 84 96)"/>
+  <line x1="91" y1="94" x2="91" y2="64" stroke="#7C3AED" stroke-width="2.5"/>
+
+  <!-- Note 3 (stem up, on line 4) -->
+  <ellipse cx="116" cy="114" rx="8" ry="6" fill="#8B5CF6" transform="rotate(-12 116 114)"/>
+  <line x1="123" y1="112" x2="123" y2="82" stroke="#8B5CF6" stroke-width="2.5"/>
+
+  <!-- Note 4 highlighted (being edited) — accented ring -->
+  <ellipse cx="148" cy="90" rx="9" ry="7" fill="none" stroke="#A78BFA" stroke-width="2.5"/>
+  <ellipse cx="148" cy="90" rx="7" ry="5" fill="#A78BFA" transform="rotate(-12 148 90)"/>
+  <line x1="156" y1="88" x2="156" y2="58" stroke="#A78BFA" stroke-width="2.5"/>
+
+  <!-- Pencil editing note 4 -->
+  <g transform="translate(168 42) rotate(45)">
+    <rect x="-4" y="-22" width="8" height="22" rx="2" fill="#F59E0B"/>
+    <polygon points="-4,0 4,0 0,9" fill="#FBBF24"/>
+    <rect x="-4" y="-26" width="8" height="6" rx="1.5" fill="#D1D5DB"/>
+    <line x1="-4" y1="-4" x2="4" y2="-4" stroke="#D97706" stroke-width="1"/>
+  </g>
+
+  <!-- Timing / lyric markers below staff -->
+  <rect x="36" y="140" width="9" height="5" rx="2" fill="#A78BFA"/>
+  <rect x="50" y="140" width="9" height="5" rx="2" fill="#C4B5FD"/>
+  <rect x="64" y="140" width="9" height="5" rx="2" fill="#A78BFA"/>
+  <rect x="78" y="140" width="9" height="5" rx="2" fill="#A78BFA"/>
+  <rect x="92" y="140" width="9" height="5" rx="2" fill="#C4B5FD"/>
+  <rect x="106" y="140" width="9" height="5" rx="2" fill="#A78BFA"/>
+  <rect x="120" y="140" width="9" height="5" rx="2" fill="#C4B5FD"/>
+  <rect x="134" y="140" width="9" height="5" rx="2" fill="#A78BFA"/>
+
+  <!-- Lyric text lines -->
+  <rect x="36" y="154" width="96" height="5" rx="2" fill="#DDD6FE"/>
+  <rect x="36" y="164" width="72" height="5" rx="2" fill="#DDD6FE"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="24" fill="#CCFBF1"/>
+
+  <!-- App window frame -->
+  <rect x="18" y="28" width="164" height="148" rx="8" fill="#0F766E"/>
+  <!-- Title bar -->
+  <rect x="18" y="28" width="164" height="24" rx="8" fill="#0D9488"/>
+  <rect x="18" y="44" width="164" height="8" fill="#0D9488"/>
+
+  <!-- Title bar dots -->
+  <circle cx="32" cy="40" r="4" fill="#5EEAD4"/>
+  <circle cx="46" cy="40" r="4" fill="#5EEAD4"/>
+  <circle cx="60" cy="40" r="4" fill="#5EEAD4"/>
+  <!-- URL bar -->
+  <rect x="74" y="34" width="94" height="12" rx="6" fill="#0F766E"/>
+
+  <!-- Left large panel (main animation view) -->
+  <rect x="26" y="58" width="76" height="110" rx="5" fill="#14B8A6"/>
+  <!-- Waveform in left panel -->
+  <rect x="34" y="95" width="7" height="30" rx="2" fill="white" opacity="0.5"/>
+  <rect x="44" y="87" width="7" height="38" rx="2" fill="white" opacity="0.7"/>
+  <rect x="54" y="76" width="7" height="49" rx="2" fill="white"/>
+  <rect x="64" y="83" width="7" height="42" rx="2" fill="white" opacity="0.8"/>
+  <rect x="74" y="91" width="7" height="34" rx="2" fill="white" opacity="0.6"/>
+  <rect x="84" y="98" width="7" height="27" rx="2" fill="white" opacity="0.45"/>
+
+  <!-- Right top panel (lyrics) -->
+  <rect x="108" y="58" width="66" height="50" rx="5" fill="#2DD4BF"/>
+  <!-- Lyric lines in right-top -->
+  <rect x="116" y="70" width="50" height="5" rx="2" fill="white" opacity="0.8"/>
+  <rect x="116" y="80" width="38" height="5" rx="2" fill="white" opacity="0.6"/>
+  <rect x="116" y="90" width="46" height="5" rx="2" fill="white" opacity="0.7"/>
+
+  <!-- Right bottom panel (play controls) -->
+  <rect x="108" y="114" width="66" height="54" rx="5" fill="#5EEAD4"/>
+  <!-- Play button in right-bottom -->
+  <circle cx="141" cy="141" r="16" fill="white" opacity="0.25"/>
+  <polygon points="135,133 135,149 151,141" fill="white" opacity="0.85"/>
+
+  <!-- Drag/resize handle cursor -->
+  <circle cx="175" cy="114" r="8" fill="#0D9488" stroke="#CCFBF1" stroke-width="2.5"/>
+  <line x1="175" y1="108" x2="175" y2="120" stroke="white" stroke-width="2"/>
+  <line x1="169" y1="114" x2="181" y2="114" stroke="white" stroke-width="2"/>
+  <polygon points="172,108 178,108 175,104" fill="white"/>
+  <polygon points="172,120 178,120 175,124" fill="white"/>
+  <polygon points="169,111 169,117 165,114" fill="white"/>
+  <polygon points="181,111 181,117 185,114" fill="white"/>
+</svg>
